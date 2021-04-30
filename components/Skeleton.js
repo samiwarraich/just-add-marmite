@@ -13,7 +13,7 @@ const Skeleton = () => {
           margin: 20px auto;
         }
         .skeleton > div {
-          background: #dbcc1a;
+          background: #c0c0c0;
           border-radius: 4px;
           margin: 20px 0;
         }
