@@ -8,8 +8,6 @@ const RecipeCard = ({ recipe }) => {
       <div className="featured">
         <Image
           src={"https:" + thumbnail.fields.file.url}
-          //   width={thumbnail.fields.file.details.image.width}
-          //   height={thumbnail.fields.file.details.image.height}
           width={600}
           height={400}
         />
@@ -20,7 +18,7 @@ const RecipeCard = ({ recipe }) => {
           <p>Take Approximate {cookingTime} minutes to cook</p>
         </div>
         <div className="actions">
-          <Link href={"/recipes/" + slug}>
+          <Link href={"/recipes/" + slug} legacyBehavior>
             <a>More Details</a>
           </Link>
         </div>

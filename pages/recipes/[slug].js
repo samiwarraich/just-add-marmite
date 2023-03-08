@@ -1,12 +1,7 @@
-import { createClient } from "contentful";
+import { client } from "../../utils/client";
 import Image from "next/image";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import Skeleton from "../../components/Skeleton";
-
-const client = createClient({
-  space: process.env.CONTENTFUL_SPACE_ID,
-  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-});
 
 export const getStaticPaths = async () => {
   const res = await client.getEntries({
@@ -49,20 +44,13 @@ export async function getStaticProps({ params }) {
 const RecipeDetails = ({ recipe }) => {
   if (!recipe) return <Skeleton />;
 
-  const {
-    featuredImage,
-    title,
-    cookingTime,
-    ingredients,
-    method,
-  } = recipe.fields;
+  const { featuredImage, title, cookingTime, ingredients, method } =
+    recipe.fields;
   return (
     <div>
       <div className="banner">
         <Image
           src={"https:" + featuredImage.fields.file.url}
-          // width={featuredImage.fields.file.details.image.width}
-          // height={featuredImage.fields.file.details.image.height}
           width={1200}
           height={400}
         />

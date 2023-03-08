@@ -13,13 +13,9 @@ const NotFound = () => {
   return (
     <div className="not-found">
       <h1>404</h1>
-      <h2>Ooops! That page cannot be found :(</h2>
+      <h2>Ooops! page cannot be found :(</h2>
       <p>
-        Go back to the{" "}
-        <Link href="/">
-          <a>Home</a>
-        </Link>{" "}
-        Page
+        Go back to the <Link href="/">Home</Link> Page
       </p>
 
       <style jsx>{`
