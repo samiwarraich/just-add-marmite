@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@contentful/rich-text-react-renderer@^15.16.5":
-  version "15.16.5"
-  resolved "https://registry.yarnpkg.com/@contentful/rich-text-react-renderer/-/rich-text-react-renderer-15.16.5.tgz#996d87311ca90ca08191408f8b148cdf5db68017"
-  integrity sha512-VYWs0zA0yYf1d7Q+w18xHt5nK6Gme0X8wj9Hi0oSi8ZDtGPaluE77eOOdTtq7keawfts/O3/kyFLV18vnBVbSA==
+"@contentful/rich-text-react-renderer@^15.17.0":
+  version "15.17.0"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-react-renderer/-/rich-text-react-renderer-15.17.0.tgz#88b6c707eec5d0d45491be830f0cfb1a0fae9472"
+  integrity sha512-6dmfzq67eR2Pd4od1WMTWgatO0A873msb/hSFSgAEUwXyS3TjIQAFLfvPA3r6jPy6M5A26wUkfQ3I9caSHyqrw==
   dependencies:
     "@contentful/rich-text-types" "^16.2.0"
 
