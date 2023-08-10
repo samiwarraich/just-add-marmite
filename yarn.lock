@@ -126,10 +126,10 @@ contentful-sdk-core@^8.1.0:
     lodash.isstring "^4.0.1"
     p-throttle "^4.1.1"
 
-contentful@^10.4.0:
-  version "10.4.0"
-  resolved "https://registry.yarnpkg.com/contentful/-/contentful-10.4.0.tgz#a0f47f72b1304e5fa7ad7301383015ae5e312f40"
-  integrity sha512-uTwBjy0ipl2Vne6HNXK+I2nGbV5m81lnRAm3KH4jwuSv7QUAgy41rt6hU4SfuqDjK7MQ0am0Maak3leWZLBOxg==
+contentful@^10.4.2:
+  version "10.4.2"
+  resolved "https://registry.yarnpkg.com/contentful/-/contentful-10.4.2.tgz#ee777cf254f5536e0b6468f91949ff46dae34bff"
+  integrity sha512-NzSZZg21EFEADfZ2hXUzDIRK/cWvPlZGMIuo2FBcdzBD2ejIQFiaTfeNe1zFt/o5a/y3jEbWLXHI5ICjSGwHNg==
   dependencies:
     "@contentful/rich-text-types" "^16.0.2"
     axios "^1.4.0"
